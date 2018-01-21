@@ -110,11 +110,13 @@ I used keras for building and training as I was behind the deadline and needed t
 #### 3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
 
 To train the model, I used an RMSProp optimizer with the following hyper parameters:
-| Parameter         		|     Value	        					| 
-|:---------------------:|:---------------------------------------------:| 
-| Learning rate         		| 0.001   							| 
+
+| Parameter         		|     Value	        					|
+|:---------------------:|:---------------------------------------------:|
+| Learning rate         		| 0.001   							|
 | Rho         		| 0.9   							|
 | Decay         		| 0  							|
+
 I ran for 50 Epochs with a batch size of 100 
 
 #### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
@@ -159,6 +161,7 @@ Here are five German traffic signs that I found on the web:
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set
 
 Here are the results of the prediction:
+
 | Image			        |     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | Speed Limit 120     		| No Entry			| 
