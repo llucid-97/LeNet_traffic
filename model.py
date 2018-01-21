@@ -1,6 +1,6 @@
 import tensorflow as tf
 from keras.models import Model
-from keras.layers import Input, Dense, Lambda, BatchNormalization, Softmax
+from keras.layers import Input, Dense, Lambda, BatchNormalization, Softmax, Conv2D
 import keras
 import keras.backend as K
 
@@ -11,9 +11,11 @@ prep_whitening = Lambda(lambda x: (x - 128) / 255)(prep)
 prep_batchNorm = BatchNormalization()(prep)
 
 net = keras.layers.Flatten()(prep_whitening)
+net = Conv2D(6, 5, (1, 1), 'valid',
+             activation='relu',
+             )
 net = Dense(43)(net)
 net = Softmax()(net)
-net = 
 
 LeNet = Model(inputs=inputs, outputs=net)
 layerProbe = Model(inputs=inputs, outputs=prep_whitening)
