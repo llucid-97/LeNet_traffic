@@ -20,8 +20,8 @@ The goals / steps of this project are the following:
 [image2]: ./examples/distribution.png "Histogram"
 [image3]: ./examples/grayscale.jpg "Grayscaling"
 [image4]: ./examples/LeNet.png "TensorBoard"
-[image5]: ./LeNet/examples/inference/79.jpeg
-[image6]: ./LeNet/examples/inference/89.jpeg
+[image5]: ./examples/inference/79.jpeg
+[image6]: ./examples/inference/89.jpeg
 [image7]: ./examples/inference/789.jpeg
 [image8]: ./examples/inference/867.jpeg
 [image9]: ./examples/inference/7888887.jpeg
