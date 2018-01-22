@@ -14,6 +14,8 @@ The goals / steps of this project are the following:
 * Summarize the results with a written report
 
 
+**Note: Run downloadDataset.sh first before running this code**
+
 [//]: # (Image References)
 
 [image1]: ./examples/visualization.png "Visualization"
