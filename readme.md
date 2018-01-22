@@ -175,5 +175,7 @@ The model was able to correctly guess 3 of the 5 traffic signs, which gives an a
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability.
 
-The code for making predictions on my final model is located in the 11th cell of the Ipython notebook.
+As can be seen below, the certainties are typically very high, even when predicting the wrong class, and when classes have obvious similarities.
+
+The model needs more data. More effort should be put into augmenting the dataset to account for exposure/lighting changes, translation, skew, scaling, and balancing the distribution of each class in the data set. Although this submission meets the minimum requirement.
 ![alt text][image13]
